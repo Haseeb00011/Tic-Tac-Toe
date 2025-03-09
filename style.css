@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: #F7B267;
+}
+.main{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+}
+.game{
+    height: min-content;
+    width: min-content;
+    display: grid;
+    grid-template-columns:repeat(3 , 100px);
+    grid-template-rows: repeat(3 ,  100px);
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 30px;
+    font-size: 3rem;
+}
+.box{ display: flex;
+    background-color: wheat;
+    color: #800000;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:   0px 0px 6px black;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: none;
+border-radius: 10px;
+box-shadow: 0px 2px 17px 6px rgb(0,0,0);
+}
+.reset{
+    height: min-content;
+    width: max-content;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 17px 6px rgb(0, 0, 0);
+    background-color:bisque ;
+    color: black;
+    cursor: pointer;
+}
+.new{
+    height: min-content;
+    width: max-content;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 2px 17px 6px rgb(0, 0, 0);
+    background-color:bisque ;
+    color: black;
+    cursor: pointer;
+}
+.msg_cont{
+    height: max-content;
+    width: max-content;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+background-color: #fedebb;
+border-radius: 15px;
+box-shadow: 0px 2px 17px 6px rgb(0, 0, 0);
+}
+.msg{
+    font-size: 1.7rem;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:   0px 0px 10px rgb(255, 255, 255);
+}
+.hide{
+    display: none;
+}
